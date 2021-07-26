@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main-style.css">
+    <link rel="stylesheet" href="css/media-style.css">
+    <title>Make order</title>
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top_content">
+                    <div class="left-side">
+                        <a href="#" class="left-side_link">Доставка</a>
+                        <a href="#" class="left-side_link">О компании</a>
+                        <a href="#" class="left-side_link">Контакты</a>
+                        <img src="img/mob-menu-icon.svg" alt="" class="mobile-menu-btn">
+                        <div class="mobile-menu-window">
+                            <div class="mobile-menu-content">
+                                <a href="#">Категории</a>
+                                <a href="#">Бренды</a>
+                                <a href="#">Информация</a>
+                                <a href="#">О компании</a>
+                                <a href="#">Новости</a>
+                                <a href="#">Контакты</a>
+                                <a href="#">Доставка</a>
+                            </div>
+                            <img src="img/close-black.svg" alt="" class="mobile-close">
+                        </div>
+                    </div>
+                    <div class="right-side">
+                        <div class="compare"><p>Сравнение:</p><span class="compare-value">0</span></div>
+                        <div class="compare-mobile">
+                            <a href="#"><img src="img/vesi-black.svg" alt=""></a>
+                            <span class="compare-mobile-value">0</span>
+                        </div>
+                        <div class="profile">
+                            <a href="#" class="profile-hide"><img src="img/man.svg" alt="">Личный кабинет</a>
+                            <a href="#" class="profile-show"><img src="img/man.svg" alt="" class="profile-mobile"></a>
+                            <div class="profile-dropdown">
+                                <div class="profile-name">
+                                    <p>Виталий Смолий</p>
+                                    <a href="#"><img src="img/exit.svg" alt=""></a>
+                                </div>
+                                <div class="profile-menu">
+                                    <a href="#"><img src="img/man.svg" alt="">Личный кабинет</a>
+                                    <a href="#"><img src="img/cart.svg" alt="">Корзина</a>
+                                    <a href="#"><img src="img/pencil.svg" alt="">Оформление заказа</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="search"><img src="img/search.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header-bottom">
+                <div class="logo"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
+                <nav>
+                    <a href="#">Категории</a>
+                    <a href="#">Бренды</a>
+                    <a href="#">Информация</a>
+                    <a href="#">О компании</a>
+                    <a href="#">Новости</a>
+                    <a href="#">Контакты</a>
+                </nav>
+                <div class="phone-and-bag">
+                    <div class="phone-number">
+                        <a href="tel:066-677-55-33">066-677-55-33</a>
+                        <button class="call-back-btn"><img src="img/phone.svg" alt="">Перезвоните мне</button>
+                    </div>
+                    <div class="favourite-btn">
+                        <div class="favourite-value value"><p>1</p></div>
+                        <a href="#"><img src="img/heart.svg" alt=""></a>
+                    </div>
+                    <div class="cart-btn">
+                        <div class="cart-value value"><p>99</p></div>
+                        <a href="#"><img src="img/cart.svg" alt=""></a>
+                    </div>
+                    <div class="cart-popup">
+                        <div class="item-line">
+                            <div class="item-img"><img src="img/item-cart.png" alt=""></div>
+                            <div class="item-name"><h2>Полушерстяное одеяло Вилюта</h2></div>
+                            <div class="item-count"><h2>1</h2></div>
+                            <div class="item-price"><h2>340 грн</h2></div>
+                            <div class="item-delete-btn"><img src="img/delete.svg" alt=""></div>
+                        </div>
+                        <div class="cart-border"></div>
+                        <div class="item-line">
+                            <div class="item-img"><img src="img/item-cart.png" alt=""></div>
+                            <div class="item-name"><h2>Полушерстяное одеяло Вилюта</h2></div>
+                            <div class="item-count"><h2>1</h2></div>
+                            <div class="item-price"><h2>340 грн</h2></div>
+                            <div class="item-delete-btn"><img src="img/delete.svg" alt=""></div>
+                        </div>
+                        <div class="cart-border"></div>
+                        <div class="cart-result">
+                            <div class="sum flex-result"><h2>Сумма:</h2><span>720 грн</span></div>
+                            <div class="total flex-result"><h2>Итого:</h2><span>720 грн</span></div>
+                        </div>
+                        <div class="submit-buy">
+                                <a href="#" class="btn submit-cart-btn">Оформление покупки</a>
+                                <a href="#" class="btn submit-cart-btn open-cart">Посмотреть корзину</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="breadcrumbs">
+                    <a href="index.html">Главная</a>
+                    <span class="slash">/</span>
+                    <a href="#">Корзина покупок</a>
+                    <span class="slash">/</span>
+                    <a href="#" class="current-page">Оформление заказа</a>
+                </div>
+                <div class="ordering-wrapper">
+                    <div class="block-title"><h1>Оформление заказа</h1></div>
+                    <div class="ordering">
+                        <div class="step-list">
+                            <div class="step-1 step">
+                                <div class="step-title"><h2>Шаг 1: Способ оформления заказа</h2></div>
+                                <div class="step-border"></div>
+                                <div class="step-content">
+                                    <div class="left-side">
+                                        <div class="step-subtitle">
+                                            <h1>НОВЫЙ ПОКУПАТЕЛЬ</h1>
+                                        </div>
+                                        <div class="method-to-buy">
+                                            <p>Способ покупки:</p>
+                                            <div class="step-checkboxes">
+                                                <div class="radio-box">
+                                                    <input type="radio" class="step-radio" id="signup" name="sign" checked>
+                                                    <label for="signup">Зарегистрироваться</label>
+                                                </div>
+                                                <div class="radio-box">
+                                                    <input type="radio" class="step-radio" id="not-signup" name="sign">
+                                                    <label for="not-signup">Оформить заказ без регистрации</label>
+                                                </div>
+                                            </div>
+                                            <p>Создав учетную запись Вы сможетете совершать покупки быстрее, отслеживать статус заказов и сохранять историю покупок.</p>
+                                        </div>
+                                        <div class="step1-button">
+                                            <button class="btn">ПРОДОЛЖИТЬ</button>
+                                        </div>
+                                    </div>
+                                    <div class="right-side">
+                                        <div class="step-subtitle">
+                                            <h1>ЗАРЕГИСТРИРОВАННЫЙ ПОЛЬЗОВАТЕЛЬ</h1>
+                                        </div>
+                                        <div class="step-enter">
+                                            <p>Войти в систему</p>
+                                            <form action="#">
+                                                <div class="step-enter-option">
+                                                    <h3>E-mail<span>*</span></h3>
+                                                    <input type="text" placeholder="example@gmail.com" required>
+                                                </div>
+                                                <div class="step-enter-option">
+                                                    <h3>Пароль<span>*</span></h3>
+                                                    <input type="text" placeholder="qwerty123" required>
+                                                </div>
+                                                <div class="step-button">
+                                                    <button class="btn">Войти</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step-2 step">
+                                <div class="step-title"><h2>Шаг 2: Личные данные</h2></div>
+                                <div class="step-border"></div>
+                                <div class="step-content">
+                                    <div class="profile-info">
+                                        <div class="step-checkboxes">
+                                            <div class="radio-box">
+                                                <input type="radio" class="step-radio" id="address" name="profile" checked>
+                                                <label for="address">Использовать существующий адрес</label>
+                                                <div class="select-menu select-show">
+                                                    <div class="select-dropdown">
+                                                        <div class="dropdown-selected">
+                                                            <p class="text">Виталий Смолий, Крещатик 33, Киев, Украина</p>
+                                                            <img src="img/arrow-down.svg" alt="">
+                                                        </div>
+                                                        <div class="dropdown-list">
+                                                            <p>Виталий Смолий, Крещатик 33, Киев, Украина</p>
+                                                            <p>Виталий Смолий, Крещатик 33, Киев, Украина</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="radio-box">
+                                                <input type="radio" class="step-radio" id="add-address" name="profile">
+                                                <label for="add-address">Добавить новый адрес</label>
+                                                <div class="select-menu">
+                                                    <div class="step-enter">
+                                                        <div class="step-enter-option">
+                                                            <h3>Имя, Отчество:<span>*</span></h3>
+                                                            <input type="text" placeholder="Олег Петрович" class="validity" pattern="[A-Za-zА-Яа-яЁё]{2,}">
+                                                        </div>
+                                                        <div class="step-enter-option">
+                                                            <h3>Фамилия:<span>*</span></h3>
+                                                            <input type="text" placeholder="Петренко" class="validity" pattern="[A-Za-zА-Яа-яЁё]{2,}">
+                                                        </div>
+                                                        <div class="step-enter-option">
+                                                            <h3>Компания:</h3>
+                                                            <input type="text" placeholder="AA FARM">
+                                                        </div>
+                                                        <div class="step-enter-option">
+                                                            <h3>Адрес:<span>*</span></h3>
+                                                            <input type="text" placeholder="Котельникова 4" class="validity" pattern="[A-Za-zА-Яа-яЁё]{2,}">
+                                                        </div>
+                                                        <div class="step-enter-option">
+                                                            <h3>Адрес (продолжение):</h3>
+                                                            <input type="text" placeholder="5й подъезд">
+                                                        </div>
+                                                        <div class="step-enter-option">
+                                                            <h3>Город:<span>*</span></h3>
+                                                            <input type="text" placeholder="Киев" class="validity" pattern="[A-Za-zА-Яа-яЁё]{2,}">
+                                                        </div>
+                                                        <div class="step-enter-option">
+                                                            <h3>Индекс:</h3>
+                                                            <input type="text" placeholder="03058">
+                                                        </div>
+                                                        <div class="step-enter-option">
+                                                            <h3>Страна:<span>*</span></h3>
+                                                            <div class="select-dropdown">
+                                                                <div class="dropdown-selected">
+                                                                    <p class="text">Украина</p>
+                                                                    <img src="img/arrow-down.svg" alt="">
+                                                                </div>
+                                                                <div class="dropdown-list">
+                                                                    <p>Украина</p>
+                                                                    <p>Россия</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="step-enter-option">
+                                                            <h3>Регион / Область:<span>*</span></h3>
+                                                            <div class="select-dropdown">
+                                                                <div class="dropdown-selected">
+                                                                    <p class="text">Выберите</p>
+                                                                    <img src="img/arrow-down.svg" alt="">
+                                                                </div>
+                                                                <div class="dropdown-list">
+                                                                    <p>Украина</p>
+                                                                    <p>Россия</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="step-button">
+                                            <button class="btn">ПРОДОЛЖИТЬ</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step-3 step">
+                                <div class="step-title"><h2>Шаг 3: Адрес доставки</h2></div>
+                                <div class="step-border"></div>
+                                <div class="step-content">
+                                    <div class="profile-info">
+                                        <div class="step-checkboxes">
+                                            <div class="radio-box">
+                                                <input type="radio" class="step-radio" id="delivery" name="delivery" checked>
+                                                <label for="delivery">Использовать существующий адрес</label>
+                                                <div class="select-menu select-show">
+                                                    <div class="select-dropdown">
+                                                        <div class="dropdown-selected">
+                                                            <p class="text">Виталий Смолий, Крещатик 33, Киев, Украина</p>
+                                                            <img src="img/arrow-down.svg" alt="">
+                                                        </div>
+                                                        <div class="dropdown-list">
+                                                            <p>Виталий Смолий, Крещатик 33, Киев, Украина</p>
+                                                            <p>Виталий Смолий, Крещатик 33, Киев, Украина</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="radio-box">
+                                                <input type="radio" class="step-radio" id="add-delivery" name="delivery">
+                                                <label for="add-delivery">Добавить новый адрес</label>
+                                                <div class="select-menu">
+                                                    <div class="step-enter">
+                                                        <div class="step-enter-option">
+                                                            <h3>Имя, Отчество:<span>*</span></h3>
+                                                            <input type="text" class="validity" placeholder="Олег Петрович" pattern="[A-Za-zА-Яа-яЁё]{2,}">
+                                                        </div>
+                                                        <div class="step-enter-option">
+                                                            <h3>Фамилия:<span>*</span></h3>
+                                                            <input type="text" class="validity" placeholder="Петренко" pattern="[A-Za-zА-Яа-яЁё]{2,}">
+                                                        </div>
+                                                        <div class="step-enter-option">
+                                                            <h3>Компания:</h3>
+                                                            <input type="text" placeholder="AA FARM" class="validity">
+                                                        </div>
+                                                        <div class="step-enter-option">
+                                                            <h3>Адрес:<span>*</span></h3>
+                                                            <input type="text" placeholder="Котельникова 4" class="validity" pattern="[A-Za-zА-Яа-яЁё]{2,}">
+                                                        </div>
+                                                        <div class="step-enter-option">
+                                                            <h3>Адрес (продолжение):</h3>
+                                                            <input type="text" placeholder="5й подъезд" class="validity">
+                                                        </div>
+                                                        <div class="step-enter-option">
+                                                            <h3>Город:<span>*</span></h3>
+                                                            <input type="text" placeholder="Киев" class="validity" pattern="[A-Za-zА-Яа-яЁё]{2,}">
+                                                        </div>
+                                                        <div class="step-enter-option">
+                                                            <h3>Индекс:</h3>
+                                                            <input type="text" placeholder="03058">
+                                                        </div>
+                                                        <div class="step-enter-option">
+                                                            <h3>Страна:<span>*</span></h3>
+                                                            <div class="select-dropdown address-dropdown">
+                                                                <div class="dropdown-selected">
+                                                                    <p class="text">Украина</p>
+                                                                    <img src="img/arrow-down.svg" alt="">
+                                                                </div>
+                                                                <div class="dropdown-list">
+                                                                    <p>Украина</p>
+                                                                    <p>Россия</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="step-enter-option">
+                                                            <h3>Регион / Область:<span>*</span></h3>
+                                                            <div class="select-dropdown address-dropdown">
+                                                                <div class="dropdown-selected">
+                                                                    <p class="text">Выберите</p>
+                                                                    <img src="img/arrow-down.svg" alt="">
+                                                                </div>
+                                                                <div class="dropdown-list">
+                                                                    <p>Украина</p>
+                                                                    <p>Россия</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="step-button">
+                                            <button class="btn">ПРОДОЛЖИТЬ</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step-4 step">
+                                <div class="step-title"><h2>Шаг 4: Способ доставки</h2></div>
+                                <div class="step-border"></div>
+                                <div class="step-content">
+                                    <div class="choose-delivery">
+                                        <p>Пожалуйста выберите способ доставки:</p>
+                                        <div class="step-checkboxes">
+                                            <div class="radio-box">
+                                                <h3>Бесплатная доставка</h3>
+                                                <input type="radio" class="step-radio" id="1" name="radio" checked>
+                                                <label for="1">Бесплатная доставка - 0грн</label>
+                                            </div>
+                                            <div class="radio-box">
+                                                <h3>Фиксированная стоимость доставки</h3>
+                                                <input type="radio" class="step-radio" id="2" name="radio">
+                                                <label for="2">Фиксированная стоимость доставки - 0грн</label>
+                                            </div>
+                                            <div class="radio-box">
+                                                <h3>Оплата за единицу</h3>
+                                                <input type="radio" class="step-radio" id="3" name="radio">
+                                                <label for="3">Оплата доставки за каждую единицу товара - 0грн</label>
+                                            </div>
+                                            <div class="radio-box">
+                                                <h3>Доставка по городу</h3>
+                                                <input type="radio" class="step-radio" id="4" name="radio">
+                                                <label for="4">Доставка по городу (Вес: 0.00кг) - 12грн</label>
+                                            </div>
+                                            <div class="step-option-area">
+                                                <h3>Вы можете добавить комментарий к своему заказу:</h3>
+                                                <textarea cols="30" rows="7" placeholder="Ваше сообщение"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="step-button">
+                                            <button class="btn">ПРОДОЛЖИТЬ</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step-5 step">
+                                <div class="step-title"><h2>Шаг 5: Способ оплаты</h2></div>
+                                <div class="step-border"></div>
+                                <div class="step-content">
+                                    <div class="payment-method-wrapper">
+                                        <p>Пожалуйста выберите способ оплаты:</p>
+                                        <form class="payment-method">
+                                            <div class="step-checkboxes">
+                                                <div class="radio-box">
+                                                    <input type="radio" class="step-radio" id="5" name="payment" checked>
+                                                    <label for="5">Оплата при доставке</label>
+                                                </div>
+                                                <div class="radio-box">
+                                                    <input type="radio" class="step-radio" id="6" name="payment">
+                                                    <label for="6">Оплата наличными</label>
+                                                </div>
+                                                <div class="step-option-area">
+                                                    <h3>Вы можете добавить комментарий к своему заказу:</h3>
+                                                    <textarea cols="30" rows="7" placeholder="Ваше сообщение"></textarea>
+                                                </div>
+                                                <div class="agreement-check">
+                                                    <input type="checkbox" id="agree-checkbox" name="agree-check" class="agree-check">
+                                                    <label for="agree-checkbox"><p>Вы должны согласится с правилами: <a href="#">Как заказать?</a></p></label>
+                                                    <div class="alert-agreement">
+                                                        <p>Вы должны согласится с правилами: <a href="#">Как заказать?</a>!</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="step-button">
+                                                <button class="btn form-button" type="button">ПРОДОЛЖИТЬ</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="step-6 step">
+                                <div class="step-title"><h2>Шаг 6: Подтверждение заказа</h2></div>
+                                <div class="step-border"></div>
+                                <div class="step-content">
+                                    <div class="payment-method-wrapper">
+                                        <form class="payment-method">
+                                            <div class="cart-table cart-table-desktop">
+                                                <div class="cart-table__names cart-grid">
+                                                    <h1>Наименование товара</h1>
+                                                    <h1>Модель</h1>
+                                                    <h1>Количество</h1>
+                                                    <h1>Цена</h1>
+                                                    <h1>Итого</h1>
+                                                </div>
+                                                <div class="cart-item-row cart-grid">
+                                                    <div class="item-name">
+                                                        <h3>Полушерстяное оделяло Вилюта</h3>
+                                                        <div class="item-description"><p>Размер одеяла: Полуторный (145х200 ..</p></div>
+                                                    </div>
+                                                    <div class="item-color">
+                                                        <h3>Бежевый</h3>
+                                                    </div>
+                                                    <div class="item-count">
+                                                        <div class="number-field">
+                                                            <input type="text" maxlength="3" value="99" min="0">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-price">
+                                                        <h3>340 грн</h3>
+                                                    </div>
+                                                    <div class="item-result">
+                                                        <h3>340 грн</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-border"></div>
+                                                <div class="cart-item-row cart-grid">
+                                                    <div class="item-name">
+                                                        <h3>Постельное белье бязь-ранфорс Вилюта 9949</h3>
+                                                        <div class="item-description">
+                                                            <p>Наволочки: 70х70 см</p>
+                                                            <p>Размеры постельного белья: Евро №6 (Пододеяльни..</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-color">
+                                                        <h3>Бежевый</h3>
+                                                    </div>
+                                                    <div class="item-count">
+                                                        <div class="number-field">
+                                                            <input type="text" maxlength="3" value="99" min="0">
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-price">
+                                                        <h3>715 грн</h3>
+                                                    </div>
+                                                    <div class="item-result">
+                                                        <h3>715 грн</h3>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-border"></div>
+                                            </div>
+                                            <div class="cart-table-mobile cart-table">
+                                                <div class="cart-table__names cart-grid">
+                                                    <h1>Наименование товара</h1>
+                                                    <h1>Модель</h1>
+                                                    <h1>Количество</h1>
+                                                </div>
+                                                <div class="cart-item-row cart-grid">
+                                                    <div class="item-name">
+                                                        <h3>Полушерстяное оделяло Вилюта</h3>
+                                                        <div class="item-description"><p>Размер одеяла: Полуторный (145х200 ..</p></div>
+                                                    </div>
+                                                    <div class="item-color">
+                                                        <h3>Бежевый</h3>
+                                                    </div>
+                                                    <div class="item-count">
+                                                        <div class="number-field">
+                                                            <input type="text" maxlength="3" value="99" min="0">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-border"></div>
+                                                <div class="cart-item-row cart-grid">
+                                                    <div class="item-name">
+                                                        <h3>Постельное белье бязь-ранфорс Вилюта 9949</h3>
+                                                        <div class="item-description">
+                                                            <p>Наволочки: 70х70 см</p>
+                                                            <p>Размеры постельного белья: Евро №6 (Пододеяльни..</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="item-color">
+                                                        <h3>Бежевый</h3>
+                                                    </div>
+                                                    <div class="item-count">
+                                                        <div class="number-field">
+                                                            <input type="text" maxlength="3" value="99" min="0">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-border"></div>
+                                            </div>
+                                            <div class="step-button">
+                                                <button class="btn form-button" type="button">ПОДТВЕРЖДЕНИЕ ЗАКАЗА</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="call-back-popup">
+            <div class="popup-content">
+                <div class="close-btn">
+                    <button><img src="img/close-popup.svg" alt=""></button>
+                </div>
+                <div class="popup-title"><h1>ОБРАТНЫЙ ЗВОНОК</h1></div>
+                <div class="popup-text">
+                    <p>Пожалуйста, укажите имя и свой номер телефона, чтобы мы могли связаться с Вами</p>
+                </div>
+                <div class="form-block">
+                    <form action="#">
+                        <div class="input-block">
+                            <input type="text" placeholder="Имя">
+                            <input type="text" placeholder="Фамилия">
+                            <input type="text" placeholder="Номер телефона">
+                            <input type="text" placeholder="E-mail">
+                            <input type="text" placeholder="Комментарий">
+                        </div>
+                        <div class="enter-code">
+                            <input type="text" placeholder="Введите код">
+                            <div class="code-numbers">
+                                <img src="img/five.png" alt="">
+                                <img src="img/five.png" alt="">
+                                <img src="img/six.png" alt="">
+                                <img src="img/seven.png" alt="">
+                            </div>
+                        </div>
+                        <div class="agreement-check">
+                            <input type="checkbox" id="pop-agree-checkbox" name="pop-agree-check" class="pop-agree-check">
+                            <label for="pop-agree-checkbox"><p>Вы должны согласится с правилами: <a href="#">Как заказать?</a></p></label>
+                            <div class="alert-agreement">
+                                <p>Вы должны согласится с правилами: <a href="#">Как заказать?</a>!</p>
+                            </div>
+                        </div>
+                        <button class="btn">ОТПРАВИТЬ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="column-title"><h1>ИНФОРМАЦИЯ</h1></div>
+                    <div class="column-border"></div>
+                    <div class="column-links">
+                        <a href="#">О нас</a>
+                        <a href="#">Доставка</a>
+                        <a href="#">Политика безопасности</a>
+                        <a href="#">Как заказать?</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="column-title"><h1>ДОПОЛНИТЕЛЬНО</h1></div>
+                    <div class="column-border"></div>
+                    <div class="column-links">
+                        <a href="#">Производители</a>
+                        <a href="#">Подарочные сертификаты</a>
+                        <a href="#">Партнерская программа</a>
+                        <a href="#">Акции</a>
+                        <a href="#">Связаться с нами</a>
+                        <a href="#">Возврат товара</a>
+                        <a href="#">Карта сайта</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="column-title"><h1>ЛИЧНЫЙ КАБИНЕТ</h1></div>
+                    <div class="column-border"></div>
+                    <div class="column-links">
+                        <a href="#">Личный Кабинет</a>
+                        <a href="#">История заказов</a>
+                        <a href="#">Закладки</a>
+                        <a href="#">Рассылка</a>
+                    </div>
+                </div>
+                <div class="footer-column footer-contacts">
+                    <div class="column-title"><h1>КОНТАКТЫ</h1></div>
+                    <div class="column-border"></div>
+                    <div class="column-links">
+                        <p><img src="img/map.svg" alt="">Украина, г. Полтава, ул. Зеньковская, 35, 36009</p>
+                        <a href="tel:+38(066) 677 55 33"><img src="img/phone1.svg" alt=""> +38(066) 677 55 33</a>
+                        <a href="mailto:texpoltava@gmail.com"><img src="img/mail.svg" alt=""> texpoltava@gmail.com</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="column-title"><h1>МАГАЗИН</h1></div>
+                    <div class="column-border"></div>
+                    <div class="column-links footer-shop">
+                        <p>Интернет-магазин домашнего текстиля "Статус-Текстиль" в Украине / Полтаве</p>
+                    </div>
+                </div>
+                <a href="#top" class="button-up"><img src="img/arrow-up.svg" alt=""></a>
+                <a href="#" class="write-btn"><img src="img/chat.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <div class="container">
+                <div class="site-link"><a href="#">stk-textile.com.ua</a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

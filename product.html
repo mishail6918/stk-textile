@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main-style.css">
+    <link rel="stylesheet" href="css/media-style.css">
+    <title>Product Page</title>
+</head>
+<body>
+    <header>
+        <div class="header-top" id="top">
+            <div class="container">
+                <div class="header-top_content">
+                    <div class="left-side">
+                        <img src="img/mob-menu-icon.svg" alt="" class="mobile-menu-btn">
+                        <div class="mobile-menu-window">
+                            <div class="mobile-menu-content">
+                                <a href="#">Категории</a>
+                                <a href="#">Бренды</a>
+                                <a href="#">Информация</a>
+                                <a href="#">О компании</a>
+                                <a href="#">Новости</a>
+                                <a href="#">Контакты</a>
+                                <a href="#">Доставка</a>
+                            </div>
+                            <img src="img/close-black.svg" alt="" class="mobile-close">
+                        </div>
+                        <a href="#" class="left-side_link">Доставка</a>
+                        <a href="#" class="left-side_link">О компании</a>
+                        <a href="#" class="left-side_link">Контакты</a>
+                    </div>
+                    <div class="right-side">
+                        <div class="compare"><p>Сравнение:</p><span class="compare-value">0</span></div>
+                        <div class="compare-mobile">
+                            <a href="#"><img src="img/vesi-black.svg" alt=""></a>
+                            <span class="compare-mobile-value">0</span>
+                        </div>
+                        <div class="profile">
+                            <a href="#" class="profile-hide"><img src="img/man.svg" alt="">Личный кабинет</a>
+                            <a href="#" class="profile-show"><img src="img/man.svg" alt="" class="profile-mobile"></a>
+                            <div class="profile-dropdown">
+                                <div class="profile-name">
+                                    <p>Виталий Смолий</p>
+                                    <a href="#"><img src="img/exit.svg" alt=""></a>
+                                </div>
+                                <div class="profile-menu">
+                                    <a href="#"><img src="img/man.svg" alt="">Личный кабинет</a>
+                                    <a href="#"><img src="img/cart.svg" alt="">Корзина</a>
+                                    <a href="#"><img src="img/pencil.svg" alt="">Оформление заказа</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="search"><img src="img/search.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header-bottom">
+                <div class="logo"><a href="index.html"><img src="img/logo.png" alt=""></a></div>
+                <nav>
+                    <div class="drop-menu-link">
+                        <a href="#" class="active-link">Категории</a>
+                        <div class="dropdown-menu">
+                            <div class="menu-item">
+                                <a href="#">Постельное белье</a>
+                                <div class="submenu">
+                                    <a href="#">Бязь-ранфорс (31)</a>
+                                    <a href="#">Сатин-Жаккард (12)</a>
+                                    <a href="#">Сатин-Люкс (10)</a>
+                                    <a href="#">Сатин-Твил (52)</a>
+                                </div>
+                            </div>
+                            <div class="menu-item"><a href="#">Одеяла</a></div>
+                            <div class="menu-item"><a href="#">Подушки</a></div>
+                            <div class="menu-item"><a href="#">Пледы</a></div>
+                            <div class="menu-item"><a href="#">Махровые изделия</a></div>
+                            <div class="menu-item"><a href="#">Детский текстиль</a></div>
+                            <div class="menu-item"><a href="#">Для кухни</a></div>
+                            <div class="menu-item"><a href="#">Простыни</a></div>
+                            <div class="menu-item"><a href="#">Покрывала</a></div>
+                            <div class="menu-item"><a href="#">Новинки</a></div>
+                        </div>
+                    </div>
+                    <a href="#">Бренды</a>
+                    <a href="#">Информация</a>
+                    <a href="#">О компании</a>
+                    <a href="#">Новости</a>
+                    <a href="#">Контакты</a>
+                </nav>
+                <div class="phone-and-bag">
+                    <div class="phone-number">
+                        <a href="tel:066-677-55-33">066-677-55-33</a>
+                        <button class="call-back-btn"><img src="img/phone.svg" alt="">Перезвоните мне</button>
+                    </div>
+                    <div class="favourite-btn">
+                        <div class="favourite-value value"><p>1</p></div>
+                        <a href="#"><img src="img/heart.svg" alt=""></a>
+                    </div>
+                    <div class="cart-btn">
+                        <div class="cart-value value"><p>99</p></div>
+                        <a href="#"><img src="img/cart.svg" alt=""></a>
+                    </div>
+                    <div class="cart-popup">
+                        <div class="item-line">
+                            <div class="item-img"><img src="img/item-cart.png" alt=""></div>
+                            <div class="item-name"><h2>Полушерстяное одеяло Вилюта</h2></div>
+                            <div class="item-count"><h2>1</h2></div>
+                            <div class="item-price"><h2>340 грн</h2></div>
+                            <div class="item-delete-btn"><img src="img/delete.svg" alt=""></div>
+                        </div>
+                        <div class="cart-border"></div>
+                        <div class="item-line">
+                            <div class="item-img"><img src="img/item-cart.png" alt=""></div>
+                            <div class="item-name"><h2>Полушерстяное одеяло Вилюта</h2></div>
+                            <div class="item-count"><h2>1</h2></div>
+                            <div class="item-price"><h2>340 грн</h2></div>
+                            <div class="item-delete-btn"><img src="img/delete.svg" alt=""></div>
+                        </div>
+                        <div class="cart-border"></div>
+                        <div class="cart-result">
+                            <div class="sum flex-result"><h2>Сумма:</h2><span>720 грн</span></div>
+                            <div class="total flex-result"><h2>Итого:</h2><span>720 грн</span></div>
+                        </div>
+                        <div class="submit-buy">
+                            <a href="#" class="btn submit-cart-btn">Оформление покупки</a>
+                            <a href="#" class="btn submit-cart-btn open-cart">Посмотреть корзину</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="breadcrumbs">
+                    <a href="index.html">Главная</a>
+                    <span class="slash">/</span>
+                    <a href="#">Постельное бельё</a>
+                    <span class="slash">/</span>
+                    <a>Бязь-ранфорс</a>
+                    <span class="slash">/</span>
+                    <a class="current-page">Постельное белье бязь-ранфорс Вилюта 17160</a>
+                </div>
+                <div class="product-block">
+                    <div class="product-item">
+                        <div class="left-side product-image">
+                            <img src="img/product-image.png" alt="">
+                        </div>
+                        <div class="right-side">
+                            <div class="product-title"><h1>Постельное белье бязь-ранфорс Вилюта 17160</h1></div>
+                            <div class="product-rating">
+                                <div class="rating-review">
+                                    <div class="rating-stars">
+                                        <img src="img/full-star.svg" alt="">
+                                        <img src="img/full-star.svg" alt="">
+                                        <img src="img/full-star.svg" alt="">
+                                        <img src="img/half-star.svg" alt="">
+                                        <img src="img/empty-star.svg" alt="">
+                                    </div>
+                                    <p>47 отзывов</p>
+                                </div>
+                                <div class="rating-review-write">
+                                    <a href="#">Написать отзыв</a>
+                                </div>
+                            </div>
+                            <div class="product-price">
+                                <div class="price"><h1>560 ГРН</h1></div>
+                                <div class="available"><p>Есть в наличии</p></div>
+                            </div>
+                            <div class="product-info">
+                                <div class="info-item">
+                                    <h2>Производитель:</h2>
+                                    <p>Фабрика "Viluta", г. Днепр</p>
+                                </div>
+                                <div class="info-item">
+                                    <h2>Модель:</h2>
+                                    <p>17160</p>
+                                </div>
+                            </div>
+                            <div class="product-select-block">
+                                <div class="product-select">
+                                    <div class="select-title"><h2>Выберите наволочку:<span>*</span></h2></div>
+                                    <div class="select-dropdown">
+                                        <div class="dropdown-selected">
+                                            <p>Сделать выбор</p>
+                                            <img src="img/arrow-down.svg" alt="">
+                                        </div>
+                                        <div class="dropdown-list">
+                                            <p>Виталий Смолий, Крещатик 33, Киев, Украина</p>
+                                            <p>Виталий Смолий, Крещатик 33, Киев, Украина</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-select">
+                                    <div class="select-title"><h2>Выбери размер постельного белья:<span>*</span></h2></div>
+                                    <div class="select-options">
+                                        <div class="option" tabindex="1"><p>Полуторный (Пододеяльник 145х210 см; Простынь 145х210 см; 2 наволочки)</p></div>
+                                        <div class="option" tabindex="2"><p>Двуспальный (Пододеяльник 175х210 см; Простынь 200х220 см; 2 наволочки)</p></div>
+                                        <div class="option" tabindex="3"><p>Евро №6 (Пододеяльник 200х220 см; Простынь 220х240 см; 2 наволочки)</p></div>
+                                        <div class="option" tabindex="4"><p>Семейный ( 2 пододеяльника 145х210 см; Простынь 220х240 см; 2 наволочки)</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-buttons">
+                                <div class="product-count product-button">
+                                    <div class="number"><h1>1</h1></div>
+                                    <div class="arrow-buttons">
+                                        <img src="img/arrow-down-revert.svg" alt="">
+                                        <img src="img/arrow-down.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="buy-btn product-button">
+                                    <button class="btn">Купить</button>
+                                </div>
+                                <div class="quick-buy product-button">
+                                    <button class="support-btn">Быстрый заказ</button>
+                                </div>
+                                <div class="item-btn">
+                                    <div class="fav-btn">
+                                        <a href="#"><img src="img/white-heart.svg" alt=""></a>
+                                    </div>
+                                    <div class="compare-btn">
+                                        <a href="#"><img src="img/vesi.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="social-btn">
+                                    <div class="like-btn">
+                                        <button><img src="img/like-icon.svg" alt="">Like <p>999</p></button>
+                                    </div>
+                                    <div class="twit-btn">
+                                        <a href="#"><img src="img/twitter-icon.svg" alt=""></a>
+                                    </div>
+                                    <div class="more-btn">
+                                        <button><img src="img/dots-icon.svg" alt=""></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-tabs">
+                        <div class="tabs-nav">
+                            <div class="tab-btn active-tab description-btn"><h1>ОПИСАНИЕ</h1></div>
+                            <div class="tab-btn characteristic-btn"><h1>ХАРАКТЕРИСТИКИ</h1></div>
+                            <div class="tab-btn review-btn"><h1>ОТЗЫВЫ</h1></div>
+                            <div class="tab-btn pay-btn"><h1>ОПЛАТА И ДОСТАВКА</h1></div>
+                        </div>
+                        <div class="tabs-content">
+                            <div class="description content-item active-content">
+                                <p>Постельное белье бязь-ранфорс Вилюта 17160. Очень красивая цветочная расцветка с веточками сакуры. Пастельные тона подходят под любой дизайн спальни.</p>
+                                <p>В нашем интернет-магазине "Статус-Текстиль" Вы можете выгодно купить постельное белье из бязи-ранфорс в Украине / Полтаве.</p>
+                                <p>Постельное белье торговой марки Вилюта с каждым днем становится все более популярным в Украине, потребитель ценит эту торговую марку за безукоризненное качество, красоту изделий, гибкую ценовую политику и лояльное отношение к покупателям</p>
+                                <p>Размеры постельного белья бязь-ранфорс:</p>
+                                <ul>
+                                    <li>Полуторное;</li>
+                                    <li>Двуспальное;</li>
+                                    <li>Евро;</li>
+                                    <li>Семейный.</li>
+                                </ul>
+                                <p>Постельное белье из бязи-ранфорс - качественное и недорогое постельное белье, которое Вы можете купить в нашем интернет-магазине по самой низкой цене в Украине / Полтаве!</p>
+                                <p>"Статус-Текстиль" - домашний текстиль для Вас!</p>
+                                <p>Подробнее о фабрике Вилюта "Viluta", г. Днепр, Украина ( <--- нажимать сюда)</p>
+                                <p>Подробнее о том, что такое бязь-ранфорс ( <--- нажимать сюда)</p>
+                            </div>
+                            <div class="characteristic content-item">
+                                <div class="content-text">
+                                    <h2>Материал:</h2>
+                                    <p>Бязь-ранфорс</p>
+                                </div>
+                                <div class="content-text">
+                                    <h2>Плотность:</h2>
+                                    <p>135 гр/м2</p>
+                                </div>
+                                <div class="content-text">
+                                    <h2>Размер:</h2>
+                                    <p>Полуторный, Двуспальный, Евро, Семейный</p>
+                                </div>
+                                <div class="content-text">
+                                    <h2>Состав ткани: </h2>
+                                    <p>100% хлопок</p>
+                                </div>
+                                <div class="content-text">
+                                    <h2>Страна производитель:</h2>
+                                    <p>Украина</p>
+                                </div>
+                            </div>
+                            <div class="content-item review">
+                                <div class="review-list">
+                                    <div class="review-item">
+                                        <div class="review-top">
+                                            <div class="name"><h1>Алексей</h1></div>
+                                            <div class="stars">
+                                                <img src="img/full-star.svg" alt="">
+                                                <img src="img/full-star.svg" alt="">
+                                                <img src="img/full-star.svg" alt="">
+                                                <img src="img/half-star.svg" alt="">
+                                                <img src="img/empty-star.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="review-text">
+                                            <p>Повседневная практика показывает, что рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании направлений прогрессивного развития. Товарищи! новая модель организационной деятельности позволяет оценить значение соответствующий условий активизации. Не следует, однако забывать, что новая модель организационной деятельности влечет за собой процесс внедрения и модернизации систем массового участия.</p>
+                                        </div>
+                                    </div>
+                                    <div class="review-border"></div>
+                                    <div class="review-item">
+                                        <div class="review-top">
+                                            <div class="name"><h1>Олег</h1></div>
+                                            <div class="stars">
+                                                <img src="img/full-star.svg" alt="">
+                                                <img src="img/full-star.svg" alt="">
+                                                <img src="img/full-star.svg" alt="">
+                                                <img src="img/half-star.svg" alt="">
+                                                <img src="img/empty-star.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="review-text">
+                                            <p>Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании модели развития. </p>
+                                        </div>
+                                    </div>
+                                    <div class="review-border"></div>
+                                    <div class="review-item">
+                                        <div class="review-top">
+                                            <div class="name"><h1>Виталий</h1></div>
+                                            <div class="stars">
+                                                <img src="img/full-star.svg" alt="">
+                                                <img src="img/full-star.svg" alt="">
+                                                <img src="img/full-star.svg" alt="">
+                                                <img src="img/half-star.svg" alt="">
+                                                <img src="img/empty-star.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="review-text">
+                                            <p>Не следует, однако забывать, что реализация намеченных плановых заданий в значительной степени обуславливает создание модели развития. Значимость этих проблем настолько очевидна, что постоянное информационно-пропагандистское обеспечение нашей деятельности влечет за собой процесс внедрения и модернизации систем массового участия. Товарищи! постоянное информационно-пропагандистское обеспечение нашей деятельности требуют от нас анализа соответствующий условий активизации.</p>
+                                        </div>
+                                    </div>
+                                    <div class="review-border"></div>
+                                    <div class="view-all-review">
+                                        <a href="#">Посмотреть все отзывы</a>
+                                    </div>
+                                </div>
+                                <div class="write-your-review">
+                                    <div class="review-title"><h1>НАПИСАТЬ ОТЗЫВ</h1></div>
+                                    <div class="form-block">
+                                        <form action="#">
+                                            <div class="name form-option">
+                                                <h2>Ваше имя<span>*</span></h2>
+                                                <input type="text" placeholder="Олег" required>
+                                            </div>
+                                            <div class="text form-option">
+                                                <h2>Ваш отзыв<span>*</span></h2>
+                                                <textarea cols="30" rows="7" placeholder="Ваше сообщение..."></textarea>
+                                            </div>
+                                            <div class="text form-option">
+                                                <h2>Оценка<span>*</span></h2>
+                                                <div class="star-rating">
+                                                    <div class="star-rating__wrap">
+                                                      <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                                                      <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                                                      <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                                                      <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                                                      <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                                                      <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                                                      <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                                                      <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                                                      <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                                                      <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                            <button class="btn">ОСТАВИТЬ ОТЗЫВ</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-item pay">
+                                <div class="pay-item">
+                                    <div class="item-title">
+                                        <div class="img"><img src="img/truck.svg" alt=""></div>
+                                        <h1>ДОСТАВКА ПО УКРАИНЕ </h1>
+                                    </div>
+                                    <div class="item-text">
+                                        <p>При заказе на сумму от 1500 грн. и полной предоплате - предоставляем бесплатную доставку по Украине. Обратите внимание! Бесплатной является только доставка товара. Дополнительные услуги транспортных компаний (наложенный платеж, адресная доставка и т.д) оплачивается покупателем и рассчитывается по тарифам перевозчиков.</p>
+                                    </div>
+                                </div>
+                                <div class="pay-item">
+                                    <div class="item-title">
+                                        <div class="img"><img src="img/delivery-mini.svg" alt=""></div>
+                                        <h1>ДОСТАВКА ПО ПОЛТАВЕ</h1>
+                                    </div>
+                                    <div class="item-text">
+                                        <p>Бесплатно предоставляем курьерскую доставку по городу Полтава, при заказе на сумму от 800 гривен.</p>
+                                    </div>
+                                </div>
+                                <div class="pay-item">
+                                    <div class="item-title">
+                                        <div class="img"><img src="img/money-pay.svg" alt=""></div>
+                                        <h1>БЕЗОПАСНАЯ ОПЛАТА</h1>
+                                    </div>
+                                    <div class="item-text">
+                                        <p>Возможна оплата с помощью наложенного платежа (оплата на отделении транспортной компании) или переводом денежных средств на банковскую карту</p>
+                                    </div>
+                                </div>
+                                <div class="pay-item">
+                                    <div class="item-title">
+                                        <div class="img small-img"><img src="img/warranty.svg" alt=""></div>
+                                        <h1>ГАРАНТИИ</h1>
+                                    </div>
+                                    <div class="item-text">
+                                        <p>При обнаружении заводского брака, несоответствии расцветок либо же каких либо других погрешностей  - в течении 14 рабочих дней обмениваем продукцию на соответствующую,, либо же возвращаем 100% суммы, оплаченной Вами.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-to-cart-popup">
+                        <div class="popup-content">
+                            <div class="close-btn">
+                                <button><img src="img/close-popup.svg" alt=""></button>
+                            </div>
+                            <div class="popup-text">
+                                <h1>Товар <a href="#">Постельное белье бязь-ранфорс Вилюта 17160</a> добавлен в <a href="#">корзину</a>!</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="call-back-popup">
+            <div class="popup-content">
+                <div class="close-btn">
+                    <button><img src="img/close-popup.svg" alt=""></button>
+                </div>
+                <div class="popup-title"><h1>ОБРАТНЫЙ ЗВОНОК</h1></div>
+                <div class="popup-text">
+                    <p>Пожалуйста, укажите имя и свой номер телефона, чтобы мы могли связаться с Вами</p>
+                </div>
+                <div class="form-block">
+                    <form action="#">
+                        <div class="input-block">
+                            <input type="text" placeholder="Имя">
+                            <input type="text" placeholder="Фамилия">
+                            <input type="text" placeholder="Номер телефона">
+                            <input type="text" placeholder="E-mail">
+                            <input type="text" placeholder="Комментарий">
+                        </div>
+                        <div class="enter-code">
+                            <input type="text" placeholder="Введите код">
+                            <div class="code-numbers">
+                                <img src="img/five.png" alt="">
+                                <img src="img/five.png" alt="">
+                                <img src="img/six.png" alt="">
+                                <img src="img/seven.png" alt="">
+                            </div>
+                        </div>
+                        <div class="agreement-check">
+                            <input type="checkbox" id="agree-checkbox" name="agree-check" class="pop-agree-check">
+                            <label for="agree-checkbox"><p>Вы должны согласится с правилами: <a href="#">Как заказать?</a></p></label>
+                            <div class="alert-agreement">
+                                <p>Вы должны согласится с правилами: <a href="#">Как заказать?</a>!</p>
+                            </div>
+                        </div>
+                        <button class="btn">ОТПРАВИТЬ</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="column-title"><h1>ИНФОРМАЦИЯ</h1></div>
+                    <div class="column-border"></div>
+                    <div class="column-links">
+                        <a href="#">О нас</a>
+                        <a href="#">Доставка</a>
+                        <a href="#">Политика безопасности</a>
+                        <a href="#">Как заказать?</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="column-title"><h1>ДОПОЛНИТЕЛЬНО</h1></div>
+                    <div class="column-border"></div>
+                    <div class="column-links">
+                        <a href="#">Производители</a>
+                        <a href="#">Подарочные сертификаты</a>
+                        <a href="#">Партнерская программа</a>
+                        <a href="#">Акции</a>
+                        <a href="#">Связаться с нами</a>
+                        <a href="#">Возврат товара</a>
+                        <a href="#">Карта сайта</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="column-title"><h1>ЛИЧНЫЙ КАБИНЕТ</h1></div>
+                    <div class="column-border"></div>
+                    <div class="column-links">
+                        <a href="#">Личный Кабинет</a>
+                        <a href="#">История заказов</a>
+                        <a href="#">Закладки</a>
+                        <a href="#">Рассылка</a>
+                    </div>
+                </div>
+                <div class="footer-column footer-contacts">
+                    <div class="column-title"><h1>КОНТАКТЫ</h1></div>
+                    <div class="column-border"></div>
+                    <div class="column-links">
+                        <p><img src="img/map.svg" alt="">Украина, г. Полтава, ул. Зеньковская, 35, 36009</p>
+                        <a href="tel:+38(066) 677 55 33"><img src="img/phone1.svg" alt=""> +38(066) 677 55 33</a>
+                        <a href="mailto:texpoltava@gmail.com"><img src="img/mail.svg" alt=""> texpoltava@gmail.com</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <div class="column-title"><h1>МАГАЗИН</h1></div>
+                    <div class="column-border"></div>
+                    <div class="column-links footer-shop">
+                        <p>Интернет-магазин домашнего текстиля "Статус-Текстиль" в Украине / Полтаве</p>
+                    </div>
+                </div>
+                <a href="#top" class="button-up"><img src="img/arrow-up.svg" alt=""></a>
+                <a href="#" class="write-btn"><img src="img/chat.svg" alt=""></a>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <div class="container">
+                <div class="site-link"><a href="index.html">stk-textile.com.ua</a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
